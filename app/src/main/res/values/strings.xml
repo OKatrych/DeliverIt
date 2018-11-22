@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DeliverIt</string>
+    <string name="grant_permissions">Please grant permissions</string>
+    <string name="parcel_info">Parcel info</string>
+    <string name="parcel_delivery_confirmation">Podtwierdzam że otrzymałem przesyłkę</string>
+    <string name="status">Status</string>
+    <string name="information">Informacja</string>
+    <string name="enter_additional_information">Możesz wprowadzić dodatkową informację</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+</resources>
