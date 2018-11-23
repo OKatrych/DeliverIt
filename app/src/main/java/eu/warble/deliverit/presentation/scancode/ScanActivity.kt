@@ -58,7 +58,6 @@ class ScanActivity : AppCompatActivity() {
             scanResult?.let {
                 when (it) {
                     is Result.Success<*> -> {
-                        viewModel.scanResult.removeObservers(this)
                         goToParcelInfoActivity(it.value as String)
                     }
                     is Result.Failure -> showError(it.error)
@@ -73,7 +72,6 @@ class ScanActivity : AppCompatActivity() {
                 putExtra("parcelCode", parcelCode)
             }
         )
-        finish()
     }
 
     private fun showError(throwable: Throwable?) {

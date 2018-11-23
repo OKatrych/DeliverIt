@@ -47,35 +47,39 @@
         android:id="@+id/tv_addition_info"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:minHeight="200dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="@string/enter_additional_information"
         android:inputType="textMultiLine"
+        android:minHeight="200dp"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
         android:text="@string/cancel"
+        android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_addition_info" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/colorAccent"
         android:text="@string/save"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_addition_info" />
 </android.support.constraint.ConstraintLayout>

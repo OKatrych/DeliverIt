@@ -8,4 +8,7 @@
     <string name="enter_additional_information">Możesz wprowadzić dodatkową informację</string>
     <string name="cancel">Anuluj</string>
     <string name="save">Zapisz</string>
+    <string name="change_status">Zmień status</string>
+    <string name="info">Info</string>
+    <string name="date">Data</string>
 </resources>

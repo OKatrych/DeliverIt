@@ -74,7 +74,7 @@ class ParcelInfoActivity : AppCompatActivity() {
     }
 
     private fun fillViews(parcel: Parcel) {
-        tv_parcel_destignation.text = parcel.recipient.address
+        tv_parcel_destination.text = parcel.recipient.address
         tv_parcel_recipient.text = parcel.recipient.name + "\n" + parcel.recipient.phoneNumber
         tv_parcel_status.text = parcel.status.status
         val date = parcel.status.getLocalDate()
